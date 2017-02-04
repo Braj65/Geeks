@@ -1,4 +1,4 @@
-package geeks.DP;
+package geeks.DP.Recurse;
 
 public class LIS {
 	
@@ -50,10 +50,10 @@ public class LIS {
 	    // driver program to test above functions
 	    public static void main(String args[])
 	    {
-	        int arr[] = { 10, 22, 9, 33, 21, 50, 41, 60 };
+	        int arr[] = {1, 11, 2, 10, 4, 5, 2, 1};
 	        int n = arr.length;
 	        System.out.println("Length of lis is "
-	                           + lis(arr, n) + "\n");
+	                           + lis(arr, 4) + "\n");
 	    }
 
 }
